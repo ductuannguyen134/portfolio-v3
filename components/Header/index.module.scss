@@ -1,0 +1,40 @@
+$font-stack: sans-serif, Arial, sans-serif;
+$primary-color: rgba(51, 51, 51, 0);
+
+.header {
+  font-family: $font-stack;
+  color: white;
+  background-color: $primary-color;
+  padding: 1em 2em 1em 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moreIcon {
+  display: none;
+}
+
+.navBar {
+  display: flex;
+}
+
+.navItem {
+  padding: 10px;
+  margin: 10px;
+
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .moreIcon {
+    display: block;
+  }
+  .navBar {
+    display: none;
+  }
+}
