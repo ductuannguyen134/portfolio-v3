@@ -42,16 +42,18 @@
 
 @media screen and (max-width: 700px) {
   .grid {
+    display: inline-grid;
     grid-template-columns: auto;
+    margin: 0;
   }
 
   .largeImage {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 500px;
   }
 
   .smallImage {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 250px;
   }
 }
