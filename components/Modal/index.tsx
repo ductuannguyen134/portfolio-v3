@@ -6,7 +6,8 @@ const Modal = (props: {
   open: boolean;
   handleClose: () => void;
   children: any;
-  title: string;
+  title?: string;
+  noBackground?: boolean;
 }) => {
   return (
     <UiModal
@@ -20,7 +21,13 @@ const Modal = (props: {
         alignItems: "center",
       }}
     >
-      <div className={styles.modalContainer}>
+      <div
+        className={
+          props.noBackground
+            ? styles.modalContainerNoBackground
+            : styles.modalContainer
+        }
+      >
         <h1>{props.title}</h1>
         {props.children}
       </div>

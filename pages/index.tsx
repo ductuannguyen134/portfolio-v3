@@ -12,6 +12,7 @@ import Skills from "../components/Skills";
 import styles from "./index.module.scss";
 import ArrowUpwardIcon from "@material-ui/icons/ArrowUpward";
 import { Link } from "react-scroll";
+import Contacts from "../components/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -54,6 +55,7 @@ const Home: NextPage = () => {
       <Education />
       <Experience />
       <Projects />
+      <Contacts />
       <div
         className={styles.upArrowButton}
         onClick={() =>

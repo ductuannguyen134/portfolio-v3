@@ -39,7 +39,7 @@ const Experience = () => {
         title="Mimosatek Technology Ltd"
         icon={
           <Image
-            src="/../public/images/icon.png"
+            src="/images/icon.png"
             width="100%"
             height="100%"
             alt="mimosatek"

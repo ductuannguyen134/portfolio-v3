@@ -15,3 +15,43 @@
   border-radius: 10px;
   margin: 1px;
 }
+
+.projectCard {
+  margin: 10px;
+  border: 1px solid #292631;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #cacaca;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  margin: 0;
+}
+
+.largeImage {
+  height: 800px;
+  width: 800px;
+}
+
+.smallImage {
+  height: 800px;
+  width: 400px;
+}
+
+@media screen and (max-width: 700px) {
+  .grid {
+    grid-template-columns: auto;
+  }
+
+  .largeImage {
+    height: 600px;
+    width: 600px;
+  }
+
+  .smallImage {
+    height: 300px;
+    width: 300px;
+  }
+}

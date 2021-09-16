@@ -20,20 +20,23 @@ const About = (props: any) => {
 
       <div style={{ flex: "50%" }}>
         <p style={{ lineHeight: 1.8 }}>
-          Xin chào! Mình là Nguyễn Đức Tuấn, tên tiếng Anh là Chris. Mình có 2
-          năm kinh nghiệm học tập và làm việc với công nghệ PHP và MERN stack.
-          Ngoài ra, Mình còn có kiến thức chuyên sâu về thiết kế cơ sở dữ liệu,
-          phát triển, thiết kế phần mềm và lập trình hướng đối tượng (OOP). Tích
-          lũy kiến thức về các công nghệ mới, cũng như viết code là điều mà Mình
-          luôn cảm thấy thích thú và đam mê (Mình có thể tự học MERN stack trong
-          4 tuần). Mình có thể làm việc nhóm hiệu quả bởi mình có khả năng thúc
-          đẩy mọi người trong nhóm làm việc và truyền động lực cho các bạn cùng
-          team hoàn thành tốt công việc. Ở trường đại học, mình thường hỗ trợ và
-          giúp đỡ các bạn học tập, đặc biệt là những bạn học sinh mới vào
-          trường. Ước mơ hiện tại của mình là được trở thành 1 kỹ sư phần mềm
-          giỏi mà mọi người trong team có thể yên tâm dựa vào.
+          I am an Front-End Application Developer, currently pursuing Master of
+          Information Technology in UTS. I have a great passion in coding and
+          exploring new knowledge about technology. I am experienced in web and
+          mobile application development, agile methodologies, and working with
+          various types of databases. I am excited to work with a global team
+          and dedicated to deliver high quality software.
         </p>
-        <Button type="primary">Download my CV</Button>
+        <p style={{ lineHeight: 1.8 }}>
+          Beside building software, I am into music and sport! I make my own
+          music in my free time and upload it on SoundCloud. I also like playing
+          basketball with my friends and my favourite NBA player is Kevin Durant
+          :D .
+        </p>
+
+        <a href="/files/16092021-resume.pdf" download>
+          <Button type="primary">Download my CV </Button>
+        </a>
       </div>
     </Container>
   );
