@@ -93,6 +93,7 @@ const Projects = () => {
               className={
                 currentImages.length > 1 ? styles.smallImage : styles.largeImage
               }
+              onClick={() => setVisibleModal(false)}
             >
               <Image
                 src={link}
